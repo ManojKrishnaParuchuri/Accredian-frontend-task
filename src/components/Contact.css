@@ -1,0 +1,49 @@
+/* Contact.css */
+
+.contact-page {
+    max-width: 200px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: black;
+
+    border-radius: 8px;
+  }
+  
+  .contact-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+ 
+  
+  .contact-link {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color : deeppink;
+    border-radius: 5px;
+  }
+  
+  .contact-link a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .contact-link a:hover {
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-links {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    .contact-link {
+      width: 200px;
+      text-align: center;
+    }
+  }
+  
